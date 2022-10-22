@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+}
+.logo {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+.content a {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgb(148, 141, 141);
+  text-decoration: none;
+  margin: 20px;
+  text-align: center;
+  transition: 0.4s ease;
+}
+.content a:hover {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+  text-align: center;
+}
+.book a {
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  background-color: rgb(139, 7, 7);
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(232, 225, 225);
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.homeleft {
+  padding: 55px;
+}
+.homeleft h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.homeleft p {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: justify;
+  width: 600px;
+}
+.homeleftbtn .onbtn {
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(139, 7, 7);
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.homeleftbtn .off {
+  color: black;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 10px;
+  text-decoration: none;
+}
+.about {
+  display: flex;
+  padding: 50px;
+}
+.aboutleft {
+  margin-right: 45px;
+}
+.abouthead h5 {
+  display: flex;
+  justify-content: center;
+}
+.abouthead p {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.aboutpara1 p {
+  font-size: 16px;
+  font-style: italic;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+ul li {
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.aboutpara1 strong {
+  font-weight: 400;
+  font-style: bold;
+  font-family: sans-serif;
+}
+.aboutrightimg img {
+  margin-top: 25px;
+}
