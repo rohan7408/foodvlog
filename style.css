@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .nav {
   display: flex;
@@ -9,6 +10,10 @@
   align-items: center;
   padding: 30px;
 }
+.span1 {
+  color: red;
+}
+
 .logo {
   font-size: 18px;
   font-weight: 600;
@@ -55,7 +60,7 @@
   padding: 55px;
 }
 .homeleft h3 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Fuzzy Bubbles", cursive;
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -67,6 +72,9 @@
   margin-bottom: 30px;
   text-align: justify;
   width: 600px;
+}
+.homeleftbtn {
+  margin-top: 10px;
 }
 .homeleftbtn .onbtn {
   color: white;
@@ -87,35 +95,609 @@
 }
 .about {
   display: flex;
-  padding: 50px;
+  padding: 60px;
 }
 .aboutleft {
-  margin-right: 45px;
+  margin-right: 85px;
+  position: relative;
+}
+.imageInside {
+  background-color: aliceblue;
+  position: absolute;
+  top: 500px;
+  left: 200px;
+  padding: 22px 80px;
+}
+.imageInside h1 {
+  font-family: "Mukta", sans-serif;
+  padding-left: 25px;
+}
+.imageInside p {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
 }
 .abouthead h5 {
   display: flex;
   justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .abouthead p {
   display: flex;
   justify-content: center;
+  font-size: 35px;
+  font-family: "Fuzzy Bubbles", cursive;
   margin-bottom: 25px;
 }
+
 .aboutpara1 p {
-  font-size: 16px;
+  font-size: 25px;
   font-style: italic;
-  font-family: sans-serif;
+  font-family: "Mulish", sans-serif;
   margin-bottom: 15px;
 }
 ul li {
   line-height: 25px;
   margin-bottom: 15px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 24px;
 }
 .aboutpara1 strong {
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 600;
   font-style: bold;
-  font-family: sans-serif;
+  font-family: "Mukta", sans-serif;
 }
 .aboutrightimg img {
   margin-top: 25px;
+}
+.aboutred {
+  color: red;
+  margin-left: 10px;
+}
+.aboutsecond {
+  display: flex;
+  padding: 55px;
+  background-color: rgba(245, 222, 179, 0.173);
+}
+.learnmore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  line-height: 25px;
+  box-sizing: border-box;
+  background-color: red;
+  padding: 15px;
+}
+.learnmore h2 {
+  color: white;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 20px;
+  line-height: 38px;
+  padding: 15px;
+}
+.learnmore p {
+  margin-bottom: 8px;
+  color: white;
+  text-align: left;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 15px;
+}
+.learnmore a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 16px 10px 16px;
+  box-sizing: border-box;
+  background-color: rgba(253, 249, 249, 0.4);
+  font-family: sans-serif;
+  border-radius: 50px;
+  color: white;
+}
+.clipboard {
+  width: 400px;
+  line-height: 25px;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+}
+.clipboard img {
+  display: flex;
+  margin-left: 95px;
+  width: 45px;
+  border-radius: 70px;
+  box-sizing: border-box;
+  background-color: rgb(200, 169, 163);
+  line-height: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.clipboard strong {
+  font-weight: 400;
+  font-size: 25px;
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  gap: 50px;
+}
+.clipboard p {
+  font-family: sans-serif;
+  margin-top: 15px;
+  text-align: center;
+}
+.diamond {
+  width: 400px;
+  line-height: 25px;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+}
+.diamond img {
+  display: flex;
+  width: 45px;
+  padding: 5px;
+  margin-left: 103px;
+  border-radius: 70px;
+  box-sizing: border-box;
+  background-color: rgb(200, 169, 163);
+  line-height: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.diamond strong {
+  font-weight: 400;
+  font-size: 25px;
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  gap: 50px;
+}
+.diamond p {
+  font-family: sans-serif;
+  margin-top: 15px;
+  text-align: center;
+}
+.inbox {
+  width: 400px;
+  line-height: 25px;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+}
+.inbox img {
+  display: flex;
+  padding: 5px;
+  margin-left: 103px;
+  width: 45px;
+  border-radius: 70px;
+  box-sizing: border-box;
+  background-color: rgb(200, 169, 163);
+  line-height: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.inbox strong {
+  font-weight: 400;
+  font-size: 25px;
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  gap: 50px;
+}
+.inbox p {
+  font-family: sans-serif;
+  margin-top: 15px;
+  text-align: center;
+}
+.number {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: 800;
+  font-size: 31px;
+  font-family: sans-serif;
+}
+.activname {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgba(255, 255, 255, 0.527);
+  font-weight: 400;
+  font-family: sans-serif;
+  font-style: bold;
+}
+
+.activities {
+  padding: 55px;
+  background: linear-gradient(
+      0deg,
+      rgba(20, 16, 19, 0.52),
+      rgba(20, 18, 19, 0.58)
+    ),
+    url(stats-bg.jpg);
+
+  margin-bottom: 30px;
+}
+#c,
+#p {
+  padding-left: 11px;
+}
+.menuhead {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 45px;
+}
+.menuhead p {
+  font-weight: 200;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 5px;
+}
+.menuhead h2 {
+  margin: 10px;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+.yummymenu {
+  color: red;
+}
+.menu {
+  background-color: rgba(255, 228, 196, 0.355);
+}
+.menulist {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 45px;
+}
+.food {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* line-height: 25px; */
+}
+.food p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: bold;
+}
+.food h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+}
+.menutype ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
+  font-family: "Mukta", sans-serif;
+  margin-top: 20px;
+}
+#st {
+  color: black;
+  transition: 0.4s ease;
+}
+#st:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#di:hover {
+  color: red;
+  transition: 0.4s ease;
+}
+#lu:hover {
+  color: red;
+  transition: 0.4s ease;
+}
+#br:hover {
+  color: red;
+  transition: 0.4s ease;
+}
+.reviews {
+  background-color: rgba(115, 125, 134, 0.36);
+  padding: 55px;
+}
+.reviewshead {
+  padding-top: 50px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.reviewshead p {
+  font-weight: bold;
+  font-family: "Mukta";
+}
+.reviewshead h2 {
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 30px;
+  margin-top: 15px;
+}
+.reviewsred {
+  color: red;
+}
+.testimonial {
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+}
+.testimonial img {
+  border-radius: 200px;
+  border: 5px solid whitesmoke;
+  margin-left: 35px;
+}
+.testimonial p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  border-left: 2px solid red;
+  height: 120px;
+
+  padding-left: 50px;
+}
+.quotes {
+  color: crimson;
+  font-weight: bold;
+  font-size: 25px;
+}
+.name {
+  margin-left: 270px;
+}
+.name h4 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.name p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.checked {
+  color: orange;
+}
+.event {
+  padding: 55px;
+}
+.eventhead {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.eventhead p {
+  font-weight: bold;
+  font-family: "Mukta";
+}
+.eventhead h2 {
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 30px;
+  margin-top: 15px;
+}
+.eventred {
+  color: red;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: greenyellow;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 30px;
+  right: 470px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+.chefs {
+  padding-top: 100px;
+  margin-top: 100px;
+  background-color: #71717144;
+}
+.chefshead {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.chefshead p {
+  font-weight: bold;
+  font-family: "Mukta";
+}
+.chefshead h2 {
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 30px;
+  margin-top: 15px;
+}
+.chefsred {
+  color: red;
+}
+.chefsinfo {
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.chefsdetails {
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: #bbb;
+  margin-right: 20px;
+  margin-top: 45px;
+  margin-left: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.133);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.chefsdetails h3 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 35px;
+}
+.chefsdetails h5 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 35px;
+}
+.chefsdetails p {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 35px;
+  transition: 0.4s ease;
+}
+
+.chefsdetails p:hover {
+  color: rgb(255, 0, 8);
+  font-size: 25px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 35px;
+}
+.chefsdetails img {
+  border: 1px solid rgba(0, 0, 0, 0.142);
+  border-radius: 4px;
+}
+
+.tablehead {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.tablehead p {
+  font-weight: bold;
+  font-family: "Mukta";
+}
+.tablehead h3 {
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 30px;
+  margin-top: 15px;
+}
+.tablered {
+  color: red;
+}
+.tablectn {
+  margin: 70px;
+  background-color: #7171710e;
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+}
+.tableright {
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+}
+input {
+  font-family: sans-serif;
+  padding: 5px;
+  margin: 10px;
+}
+.form1 {
+  line-height: 70px;
+}
+.form2 {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+  width: 150px;
+  box-sizing: border-box;
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 15px;
+  margin-left: 200px;
+}
+.contact {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 105px;
+}
+.address h4 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.address p {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+hr {
+  color: white;
+}
+.copyright {
+  padding: 55px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  background-color: black;
+  text-align: center;
 }
